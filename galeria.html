@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Sasvári Bálint">
+    <meta name="Description" content="A weboldalamon az új Honda Civic Type-R-t fogom bemutatni, valamint a széria korábbi modelleit, fiktív véleméyeket és hitelkalkulálást.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="kepek/honda-logo-brand-symbol-red-design-japan-car-automobile-illustration-with-black-background-free-vect.ico">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Honda Civic Type-R</title>
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+
+    <style>
+        .galleria {
+         margin: auto;
+         width: 53vw;
+         height: 53vw;
+         }
+         .galleria-theme-classic{
+            background-color: rgb(164, 164, 164);
+         }
+         .galleria-stage{
+            background-color: black;
+         }
+         
+    </style>
+
+</head>
+<body>
+
+    <div id="header" class="flex-container">
+        <table id="hTable">
+            <tr>
+                <td id="headerIcon"><img id="hondaIcon" class="hondaIcon" src="kepek/honda-logo-brand-symbol-red-design-japan-car-automobile-illustration-with-black-background-free-vector.jpg" alt="Honda logó"></td>
+                <td id="headerText">Honda Civic Type-R</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div id="content" class="flex-container">
+        <div id="menu">
+            <a href="index.html">Kezdőlap</a>
+            <a href="Tortenet.html">Története</a>
+            <a href="Velemenyek.html">Vélemények</a>
+            <a id="current" href="#">Galéria</a>
+        </div>
+    </div> 
+    
+    <div id="galleriaContainer">
+        <article id="images" class="galleria">
+            <h2>Galéria a Honda Civic Type-R-ről</h2>
+            <img src="kepek/g1.jpg" alt="Honda Civic Type-R oldalnézete" title="Oldalnézet"> 
+            <img src="kepek/g2.jpg" alt="Honda Civic Type-R elölnézete" title="Elölnézet">
+            <img src="kepek/g3.jpg" alt="Honda Civic Type-R ülései" title="Ülések">
+            <img src="kepek/g4.jpg" alt="Honda Civic Type-R beltere" title="Beltér">
+            <img src="kepek/g5.jpg" alt="Honda Civic Type-R szárnya" title="Szárny">
+            <img src="kepek/g6.jpg" alt="Honda Civic Type-R központi vezérlőegysége" title="Központi vezérlőegység">
+            <img src="kepek/g7.jpg" alt="Honda Civic Type-R vezetési módjai" title="Vezetési módok">
+            <img src="kepek/g8.jpg" alt="Honda Civic Type-R kormánya" title="Kormány">
+            
+
+        </article>
+    </div>
+    
+
+    <footer>Készítette: Sasvári Bálint</footer>
+    
+    <script>
+        (function() {
+            Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria');
+        }());
+    </script>
+
+    <script>
+        (function(){
+        G.init();
+        }());
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Sasvári Bálint">
+    <meta name="Description" content="A weboldalamon az új Honda Civic Type-R-t fogom bemutatni, valamint a széria korábbi modelleit, fiktív véleméyeket és hitelkalkulálást.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.3/jquery.validate.min.js"></script>
+
+    <link rel="icon" href="kepek/honda-logo-brand-symbol-red-design-japan-car-automobile-illustration-with-black-background-free-vect.ico">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Honda Civic Type-R</title>
+
+    <style>
+        label.error {
+        color: #FB3A3A;
+        }
+
+        .error-container {
+        text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="header" class="flex-container">
+        <table id="hTable">
+            <tr>
+                <td id="headerIcon"><img id="hondaIcon" class="hondaIcon" src="kepek/honda-logo-brand-symbol-red-design-japan-car-automobile-illustration-with-black-background-free-vector.jpg" alt="Honda logó"></td>
+                <td id="headerText">Honda Civic Type-R</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="content" class="flex-container">
+        <div id="menu">
+            <a href="index.html">Kezdőlap</a>
+            <a href="Tortenet.html">Története</a>
+            <a id="current" href="#">Vélemények</a>
+            <a href="galeria.html">Galéria</a>
+        </div>
+
+        <h1>Olvasóink véleményei:</h1>
+
+        <div id="velemenyek">
+
+            <div class="comment">
+                <div class="profil">
+                    <img class="profilkep" src="kepek/profil.jpg" alt="Profilkép">
+
+                    <div class="nevIdo">
+                        <h4>Torpedó Tamás</h4>
+                        <h4>(2023-11-27)</h4>
+                    </div>
+                </div>
+                
+                <div>
+                    <p>Pár hete volt szerencsém egy 10gen Type R-hez amit vezethettem is. Elképesztő autó! Valóban adaptív a futómű érzed a különbséget, és a legkeményebb sem veseleverő de kemény. A váltó is szuper! A motor rugalmassága is eszméletlen, tényleg alulról húz és egyenletesen folyamat sose akar elfogyni, és csak pakolod neki a fokozatokat és élvezed, az átlag autósok meg mind tötymörgő torlasznak tűnnek, szereti a gyors menést. Hja és ha nagyon nyugiban még 6L körül is tud enni, normál használatnál is 8 körül beéri emlékeim szerint.. Nyílván ez is tudja csak biztos még egy pici pluszt adhat.
+
+                        Amúgy amit írtak kommentben, Nordschleife körön tényleg brutál elmelegedett az olaja az egyik csávó videójában, de úgy tudom ezzel a 10g is küzdött, de tuti, hogy már van rá tuning megoldás. :)  
+                        És ja a formája is most már sokkal emberibb!
+                        Kéne! Nagyon!</p>
+                </div>
+            </div>
+
+            <div class="comment">
+                <div class="profil">
+                    <img class="profilkep" src="kepek/profil.jpg" alt="Profilkép">
+
+                    <div class="nevIdo">
+                        <h4>Divat Angéla</h4>
+                        <h4>(2023-10-07)</h4>
+                    </div>
+                </div>
+                
+                <div>
+                    <p>Nagyon állat gép lett. Mindig is Hondás voltam, az 5. és a 6. generációs Civic-ek voltak a kedvenceim formailag, majd jött a bálna civic és az earth dream éra, ahol a Honda egy kicsit elvesztette a sportos érzetét, majd újra berobbantak ezzel a 11. generációval.. te jó isten, micsoda forma. Nekem nagyon bejön, mára ez lett a kedvencem.</p>
+                </div>
+            </div>
+
+            <div class="comment">
+                <div class="profil">
+                    <img class="profilkep" src="kepek/profil.jpg" alt="Profilkép">
+
+                    <div class="nevIdo">
+                        <h4>Süveg Tibor</h4>
+                        <h4>(2023-08-13)</h4>
+                    </div>
+                </div>
+                
+                <div>
+                    <p>Nemrég én is kipróbáltam ugyanezt az autót. Nagyszerű élmény volt, nagyon tetszett a típus! Meglepően könnyű volt megszokni és megszeretni, leginkább az fogott meg benne, hogy a rendkívüli képességekkel bíró sportautót - szinte már versenyautót - kényelmes családi autóként is lehet használni. Én ugyan majdnem 30 centivel alacsonyabb vagyok Daninál, de azért még átlagos termetűnek mondanám magam, ezzel együtt kicsit magasnak találtam a kocsi elejét. A kilátás olyan volt belőle, mint egy repülőgépből, néha nyújtogattam a nyakam, amíg meg nem szoktam. Az igazsághoz hozzátartozik, hogy a saját autóm, a 4. generációs Civic minden irányban olyan alacsony, hogy a kilátás belőle tökéletes - ehhez képest itt kissé korlátozott volt a kilátás, főleg hátrafelé. Ezután viszont már minden hondásan kiváló volt, a motor, a váltó, a futómű, a kormányzás, a vezetési élmény egyszerűen lenyűgöző volt!</p>
+                </div>
+            </div>
+
+            <div class="comment">
+                <div class="profil">
+                    <img class="profilkep" src="kepek/profil.jpg" alt="Profilkép">
+
+                    <div class="nevIdo">
+                        <h4>Tét András</h4>
+                        <h4>(2023-08-13)</h4>
+                    </div>
+                </div>
+                
+                <div>
+                    <p>A 2023-as Honda Civic Type-R egy szuper járgány. Kívülről olyan, mintha azt mondaná: "Itt vagyok, nézz rám!" Amikor vezeted, az élmény olyan, mintha repülnél az úton. A váltója könnyű, és élvezet vele váltani. Belül is rendben van, mert praktikus és modern. Egyszóval, egy menő autó, amivel király menni!</p>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <div id="kerdoiv">
+
+            <h1 id="velemenyH">Töltsd ki a kérdőívünket, hogy bekerülhess a Vélemények oldalra!</h1>
+
+            <form method="post" action="http://szamtud.uni-corvinus.hu/receive.php" id="formID" novalidate>
+                <div class="formFlex">
+                    <div>
+                        <h2>Személyes adatok:</h2>
+                        <table id="szaTable">
+                            <tr>
+                                <td>
+                                    <label for="nev">Név: <input name="nev" type="text" placeholder="Gipsz Jakab"></label> 
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td>
+                                    <label for="eMail">E-mail: <input name="eMail" type="email" placeholder="gipsz.jakab@gmail.com"></label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="pass">Jelszó: <input name="pass" type="text" placeholder="jelszo01"></label>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td>
+                                    <label for="vasarlasDatuma">(Opcionális) Type-R vásárlásának időpontja: <input type="date" name="vasarlasDatuma"></label>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td>
+                                    <label for="vOka">(Opcionális) Vásárlás fő oka: <br> <textarea  name="vOka" cols="50" rows="10"></textarea></label>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <h2>Preferenciák</h2>
+
+                        <table id="eiTable">
+
+                            <tr>
+                                <td colspan="5">Legszebb Type-R szín:</td>
+                            </tr>
+                            <tr>
+                                
+                                <td><label for="szin"><input class="clolor-sel" type="radio" name="szin" id="pi"></label></td>
+                                <td><label for="szin"><input class="clolor-sel" type="radio" name="szin" id="ke"></label></td>
+                                <td><label for="szin"><input class="clolor-sel" type="radio" name="szin" id="feh"></label></td>
+                                <td><label for="szin"><input class="clolor-sel" type="radio" name="szin" id="szu"></label></td>
+                                <td><label for="szin"><input class="clolor-sel" type="radio" name="szin" id="fek"></label></td>
+                                
+                            </tr>
+
+                            <tr>
+                                <td colspan="5">Legfontosabb kiegészítő csomag</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5">
+                                    <label for="legfontosabbKieg">
+                                        <select size="1" name="legfontosabbKieg" id="fk">
+                                            <option value="carbonCsomag">Carbon csomag</option>
+                                            <option value="hangulatvilagitasCsomag">Hangulatvilágítás  csomag</option>
+                                            <option value="eleganceSzonyegek">Elegance szőnyegek</option>
+                                            <option value="negyevszakosSzonyegek">Négyévszakos szőnyegek</option>
+                                            <option value="napellenzok">Napellenzők</option>
+                                        </select>
+                                    </label>
+                                </td>
+                            </tr>
+
+                        </table>
+                        
+                    </div>
+    
+                    <div>
+                        <h2>Vélemény skálák:</h2>
+                        <table id="vTable">
+    
+                            <tr>
+                                <td colspan="2">
+                                    <label for="autoErtekelese">
+                                        <a>Az autó összességében:</a> <br> <Input class="skala" type="range" name="autoErtekelese" min="1" max="10" step="1"><br>
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                
+                                <td class="right">10</td>
+                            </tr>
+    
+    
+                            <tr>
+                                <td colspan="2">
+                                    <label for="designErtekelese">
+                                        <a>Dizájn:</a> <br> <Input class="skala" type="range" name="designErtekelese" min="1" max="10" step="1">
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                
+                                <td class="right">10</td>
+                            </tr>
+    
+                            <tr>
+                                <td colspan="2">
+                                    <label for="techErtekelese">
+                                        <a>Technológiai fejlettség:</a> <br> <Input class="skala" type="range" name="techErtekelese" min="1" max="10" step="1">
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                
+                                <td class="right">10</td>
+                            </tr>
+    
+                            <tr>
+                                <td colspan="2">
+                                    <label for="kenyelemErtekelese">
+                                        <a>Kényelem:</a> <br> <Input class="skala" type="range" name="kenyelemErtekelese" min="1" max="10" step="1">
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                
+                                <td class="right">10</td>
+                            </tr>
+    
+                            <tr>
+                                <td colspan="2">
+                                    <label for="teljesitmenyErtekelese">
+                                        <a>Teljesítmény:</a> <br> <Input class="skala" type="range" name="teljesitmenyErtekelese" min="1" max="10" step="1">
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                
+                                <td class="right">10</td>
+                            </tr>
+    
+                            <tr>
+                                <td colspan="2">
+                                    <label for="arErtekelese">
+                                        <a>Ár/Érték:</a> <br> <Input class="skala" type="range" name="arErtekelese" min="1" max="10" step="1">
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                
+                                <td class="right">10</td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2">
+                                    <label for="fogyasztasErtekelese">
+                                        <a>Fogyasztás:</a> <br> <Input class="skala" type="range" name="fogyasztasErtekelese" min="1" max="10" step="1">
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                
+                                <td class="right">10</td>
+                            </tr>
+    
+                        </table>
+                    </div>
+
+
+                    <div>
+                        <h2>Részletes vélemény:</h2>
+                        <label for="reszletes">
+                            <textarea name="reszletes" cols="30" rows="10"></textarea>
+                        </label>
+                    </div>
+                    
+                </div>
+                
+                <div id="vegsoOpciok">
+                    <label for="hirlevel" class="center">
+                        <input name="hirlevel" type="checkbox" checked value="feliratkozas">Feliratkozom hírlevélre!
+                    </label>
+                    
+                    <label for="adatV" class="center">
+                        <input name="adatV" type="checkbox" value="adatvedelem">
+                        Elolvastam, és elfogadom az <a id="avtLink" href="https://www.nyilvantarto.hu/letoltes/Adatkezelesi_tajekoztato_utiokmany.pdf">&nbsp;adatvédelmi tájékoztatót!</a><br>
+                    </label>
+                
+    
+                    <label for="subm" id="kuldPoz">
+                        <input id="kuldG" name="subm" type="submit" value="Küldés!">
+                    </label>
+                </div>
+                
+            </form>
+
+
+        </div>
+        
+
+
+
+    </div>
+
+    <footer>Készítette: Sasvári Bálint</footer>
+
+
+    <script>
+        $(document).ready(function(){
+        $("#formID").validate({
+
+            rules: {
+                nev: "required",
+                eMail: {
+                    required: true,
+                    email: true
+                },
+                pass:{
+                    required: true,
+                    minlength:8,
+                },
+                szin:{
+                    required: true
+                },
+                reszletes:{
+                    required: true,
+                    minlength:15,
+                },
+                adatV: "required"
+            },
+
+            messages: {
+                nev: " Írd be a teljes neved!",
+                eMail: " Kérlek valós email címet adj meg!",
+                pass: {
+                    required: " Add meg a jelszavad!",
+                    minlength: " A jelszavad legalább 8 karakter hosszú legyen!"
+                },
+                szin: "Kérlek válassz ki egy színt!",
+                reszletes:{
+                    required: "Kérlek add meg a részletes véleményedet az autóról!",
+                    minlength: "Kérlek legalább 15 karakter hosszan fejtsd ki a véleményed!"
+                },
+                adatV: " Kérlek fogadd el a feltételeinket!",
+            },
+
+            errorPlacement: function (error, element) {
+                if (element.attr("name") == "szin") {
+                    error.insertAfter($("input[name='szin']:last").parent());
+                } else if (element.attr("name") == "reszletes") {
+                    var errorContainer = $('<div class="error-container"></div>');
+                    errorContainer.append(error);
+                    errorContainer.insertAfter(element).before('<br>');
+                } else if (element.attr("name") == "adatV") {
+                    var errorContainer = $('<div class="error-container"></div>');
+                    errorContainer.append(error);
+                    errorContainer.insertAfter(element.closest("label"));
+                } else {
+                    error.insertAfter(element);
+                }
+            }
+
+        });
+        });
+    </script>
+
+
+</body>
+</html>

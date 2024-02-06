@@ -1,0 +1,597 @@
+/* Formázások az egész oldalra */
+    * {
+        box-sizing: border-box;
+        }
+
+
+
+/* Alap tag-ek formázása */
+    body{
+        margin: auto;
+        background-color: gainsboro;
+    }
+
+    h1, h2{
+        text-align: left;
+        padding: 5px;
+        margin: 3vw;
+    }
+
+    h1{
+        background-color:rgb(164, 164, 164) ;
+        border-radius: 10px;
+    }
+
+    h2{
+        text-decoration: underline;
+    }
+
+    h4{
+        margin: 0px;
+        font-size: 150%;
+    }
+
+    p{
+        margin: 5vw;
+        text-align: left;
+        font-family: 'Inter', sans-serif;
+    }
+
+    footer{
+        font-size: 5vw;
+        background-color: black;
+        color: rgb(199, 24, 24);
+        text-align: center;
+        padding: 15px;
+    } 
+
+    textarea{
+        width: 80vw;
+        height: auto;
+    }
+
+    input[type="range"] {
+        -webkit-appearance: none;
+        appearance: none;
+        background: transparent;
+        cursor: pointer;
+        width: 60vw;
+    }
+
+    input[type="range"]::-webkit-slider-runnable-track {
+        background: black;
+        border-radius: 20px;
+        height: 2vw;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        background: rgb(199, 24, 24);
+        border-radius: 20px;
+        cursor: pointer;
+        height: 2vw;
+        width: 2vw;
+    }
+
+    input[type=radio].clolor-sel {
+        appearance: none;
+        width: 25px;
+        height: 25px;
+        outline: none;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #000000;
+        border: 1px solid #181818dd;
+    }
+    
+    input[type=radio]:checked.clolor-sel{
+        border: 4px solid yellow;
+    }
+
+
+
+
+/* ID-k formázássa */
+    #hTable{
+        border-collapse: collapse;
+        background-color: black;
+        width: 100%;
+    }
+
+    #szaTable, #vTable, #eiTable{
+        margin: 5vw;
+        text-align:left;
+    }
+
+    #headerIcon{
+        padding: 0px;
+    }
+    #headerText{
+        padding: 0px;
+        text-align: left;
+        font-size: 9vw;
+        color: rgb(199, 24, 24);
+    }
+    #hondaIcon{
+        padding: 0px;
+        width: 12vw;
+        height: auto;
+    }
+
+    #content{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    #menu {
+        background-color: #333; 
+        padding: 1vw; 
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    #menu a {
+        color: white; 
+        text-decoration: none; 
+        margin: 0.5%;
+        padding: 2.5%;
+        background-color: black;
+        width: 100%;
+        font-size: 3vw;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    #menu #current{
+        color: rgb(199, 24, 24);
+        background-color:rgb(164, 164, 164);
+    }
+
+    #menu a:hover, #menu #current:hover {
+        color: rgb(199, 24, 24); 
+        background-color:  rgb(119, 116, 116);
+    }
+
+    #carImg, #interiorIMG{
+        text-align: center;
+        width: 90vw;
+        height: auto;
+    }
+
+    #ssTable{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-collapse: collapse;
+    }
+
+    #ssTable td{
+        border: 3px solid black; 
+    }
+
+    #kuldG, #calc{ 
+        width: 70vw;
+        height: 5vw;
+        font-size: 120%;
+    }
+
+    #kuldPoz{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4vw;
+    }
+
+    #htr{
+        border: 2px solid black;
+        text-align: center;
+        margin-top: 0%;
+        font-size: 4vw;
+    }
+
+    #avtLink{
+        display: flex;
+        justify-content: center;
+    }
+
+    #fek{
+        background-color: #000000;
+    }
+    
+    #ke{
+        background-color: blue;
+    }
+    
+    #szu{
+        background-color: gray;
+    }
+    
+    #pi{
+        background-color: red;
+    }
+    
+    #feh{
+        background-color: white;
+    }
+
+    #galleriaContainer{
+        margin-top: 10vw;
+        margin-bottom: 20vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    #oktatas{
+        font-size: 50%;
+    }
+
+
+
+/* Class-ok formázása */
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        }
+        
+
+
+    .galleria {
+        margin: auto;
+        width: 90vw;
+        height: 90vw;
+    }
+    .skala{
+        width: 70vw;
+        height: auto;
+        
+    }
+
+    .mid{
+        text-align: center;
+    }
+
+    .right{
+        text-align:right;
+    }
+
+    .customHeader{
+        margin: 5vw;
+    }
+
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .szoveg .kep {
+        flex: 15%;
+    }
+
+    .box-image, .box-imageT{
+        width: 100%;
+    }
+
+    span.bekezdes{
+        margin-left: 20px;
+    }
+
+    .EK9{
+        background-color: white;
+        margin: 5vw;
+        border-radius: 10px;  
+    }
+
+    .formFlex{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+
+    .color-sel{
+        width: 2vw;
+        height: 2vw;
+        text-align: center;
+        background-color: gainsboro;
+        padding-right: 4vw;
+    }
+
+    .profilkep{
+        width: 10%;
+        height: 10%;
+    }
+
+    .profil{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin-left: 5vw;
+    }
+
+    .comment{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        margin-top: 2vw;
+        background: white;
+        border-radius: 20px;
+        padding-top: 2vw;
+    }
+
+    .comment > div > p{
+        margin-top: 0px;
+        font-size: 120%;
+    }
+
+    .nevIdo{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+
+
+
+/* Reszponzivitás */
+@media screen and (max-width: 600px) {
+
+    /* ID */
+    #menu > a{
+        font-size: 125%;
+    }
+
+    #kuldG, #calc{ 
+        font-size: 3vw;
+        width: 90vw;
+    }
+
+    /* Class */
+    .kep{
+        flex: 100%;
+    }
+
+    .szoveg{
+        flex: 120%;
+    }
+
+    .comment > div > p{
+        margin-top: 0px;
+    }
+
+    .nevIdo{
+        flex-direction: row;
+    }
+
+    
+    .color-sel{
+        width: 4vw;
+        height: 4vw;
+    }
+
+}
+
+@media screen and (max-width: 799px) {
+    
+    /* ID */
+    #menu > a{
+        font-size: 150%;
+    }
+
+    #htr{
+        font-size: 4vw;
+     }
+
+     #kuldG, #calc{ 
+        width: 90vw;
+    }
+
+
+    /* Class */
+    .kep{
+       flex: 50%;
+    }
+
+    .szoveg{
+        flex: 100%;
+    }
+
+    .comment > div > p{
+        margin-top: 0px;
+    }
+
+
+    .color-sel{
+        width: 4vw;
+        height: 4vw;
+    }
+
+
+    .hitelClass{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+
+    /* Alap tag-ek */
+    h2{
+        margin: 1vw 1vw 1vw 5vw;
+    }
+
+    h4{
+        font-size: 3vw;
+    }
+
+    input[type="range"] {
+        width: 20vw;
+      }
+
+    textarea{
+        width: 30vw;
+        height: auto;
+    }
+
+    
+
+
+    /* ID */
+    #content {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        flex-wrap:wrap;
+    }
+
+    #menu {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+
+    #menu a {
+        width: 20%;
+        height: 20%;
+    }
+
+    #kuldG, #calc{ 
+        font-size: 200%;
+    }
+
+    #htr{ 
+        font-size: 4vw;
+     }
+
+
+     /* Class */
+    .box{
+        flex: 50%;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        flex-wrap:nowrap;
+        align-items: center;
+    }
+    .box2{
+        flex: 50%;
+        display: flex;
+        margin: auto;
+        flex-wrap:nowrap;
+        flex-direction: row-reverse;
+    }
+
+    .kep{
+        flex: 80%;
+    }
+
+    .szoveg{
+        flex: 150%;
+    }
+
+    .box-image, .box-imageT {
+        width: 30vw;
+    }
+
+    .mpara, .mparaT, .customHeader, .pInP{
+        margin: 1vw 1vw 1vw 5vw;
+    }
+
+    .formFlex{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .comment > div > p{
+        margin-top: 0px;
+    }
+    
+    .hitelClass{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    .color-sel{
+        padding-right: 2vw;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    
+    /* Alap tag-ek */
+    h1{
+        font-size: 2.5vw;
+    }
+
+    h2{
+        font-size: 2vw;
+    }
+
+    h3, #vTable  > tr > td{
+        font-size: 1.5vw;
+    }
+
+    h4{
+        
+        font-size: 310%;
+    }
+
+    p, td{
+        font-size: 1vw;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        height: 1vw;
+        width: 1vw;
+    }
+
+    input[type="range"]::-webkit-slider-runnable-track {
+        height: 1vw;
+    }
+
+    /* ID */
+    #kuldG, #calc{ 
+        font-size: 300%;
+    }
+
+    #htr{
+        font-size: 4vw;
+     }
+
+     /* Class */
+    .mparaT{
+        font-size: 1.2vw;
+    }
+
+    .comment > div > p{
+        margin-top: 0px;
+    }
+
+    .hitelClass{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
+}
+
